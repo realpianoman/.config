@@ -191,3 +191,4 @@ Render pre processor: 0
 [2025-06-18 13:50:47.202] [4919] (region_latency_tester.cpp:73): Sending 5 latency test pings to region us-central
 [2025-06-18 13:50:52.207] [4919] (region_latency_tester.cpp:181): Timing out 15 remaining latency test pings
 [2025-06-18 13:50:52.207] [4919] (region_latency_tester.cpp:288): Average RTT for region santa-clara is 16.25
+[2025-06-18 14:05:11.429] [4406] (instrumented_task.cpp:52): polling 35 metrics
