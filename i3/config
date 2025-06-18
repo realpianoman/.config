@@ -38,8 +38,8 @@ exec_always --no-startup-id setxkbmap us colemak
 # GTK theme environment for dark mode
 exec_always --no-startup-id export GTK_THEME=Adwaita-dark
 exec --no-startup-id xrandr --output DP-2 --right-of DP-0
-exec_always --no-startup-id xrandr --output DP-2 --mode 2560x1440 --rate 144.00
-exec_always --no-startup-id xrandr --output DP-0 --mode 2560x1440 --rate 120.00
+exec --no-startup-id xrandr --output DP-2 --mode 2560x1440 --rate 144.00
+exec --no-startup-id xrandr --output DP-0 --mode 2560x1440 --rate 120.00
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 exec --no-startup-id xset -dpms
 exec --no-startup-id xset s off
@@ -117,9 +117,6 @@ bindsym $mod+e layout toggle split
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
-# change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
-
 # focus the parent container
 bindsym $mod+a focus parent
 
@@ -169,6 +166,9 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# Rofi open drun
+bindsym $mod+space exec "rofi -show drun"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
