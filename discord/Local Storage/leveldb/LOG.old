@@ -1,5 +1,0 @@
-2025/06/18-13:48:31.507 df3 Reusing MANIFEST /home/lucienduchateau/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2025/06/18-13:48:31.523 df3 Recovering log #4
-2025/06/18-13:48:31.523 df3 Reusing old log /home/lucienduchateau/.config/discord/Local Storage/leveldb/000004.log 
-2025/06/18-13:49:58.448 df4 Level-0 table #8: started
-2025/06/18-13:49:58.464 df4 Level-0 table #8: 1078022 bytes OK

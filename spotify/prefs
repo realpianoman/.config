@@ -1,9 +1,0 @@
-autologin.blob="MF6OTLOvI36KuDY7eeRhyusQGKdpWeXfxZQvVJ3smK8wtj2uANU9Bz8uF8/SZ/b2I3Wf0zNz6cBUg+V8L9witXUfTwx6GyZ9WSkI0cuhtAzE9lTwtcJeqSTXZSIoTujlSu2YMuFle58Bg03vR+hT92eAmFH43feE/LqEOIneVxr4UoLCtV14kGI8UNqP1TECONGp51x2L5WjOlt+enZo0LlvFMezlagI+Ep1rt91e99GqF/UfVW/awvE405ZtLsVSB44vfsHCKITMZf3eA3DXWQSRgg0KB8jQQUXOe9wpUc="
-autologin.canonical_username="x5m5sty6er60i01r15mw3qy3n"
-autologin.saved_credentials="{\"x5m5sty6er60i01r15mw3qy3n\":[\"x5m5sty6er60i01r15mw3qy3n\",\"MF6OTLOvI36KuDY7eeRhyusQGKdpWeXfxZQvVJ3smK8wtj2uANU9Bz8uF8/SZ/b2I3Wf0zNz6cBUg+V8L9witXUfTwx6GyZ9WSkI0cuhtAzE9lTwtcJeqSTXZSIoTujlSu2YMuFle58Bg03vR+hT92eAmFH43feE/LqEOIneVxr4UoLCtV14kGI8UNqP1TECONGp51x2L5WjOlt+enZo0LlvFMezlagI+Ep1rt91e99GqF/UfVW/awvE405ZtLsVSB44vfsHCKITMZf3eA3DXWQSRgg0KB8jQQUXOe9wpUc=\"]}"
-app.rollback-to-sc=true
-es.send-on-startup=true
-core.clock_delta=0
-autologin.username="x5m5sty6er60i01r15mw3qy3n"
-storage.last-location="/home/lucienduchateau/.cache/spotify/Storage"
-app.last-launched-version="1.2.63.394.g126b0d89"
