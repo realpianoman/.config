@@ -38,8 +38,8 @@ exec_always --no-startup-id setxkbmap us colemak
 # GTK theme environment for dark mode
 exec_always --no-startup-id export GTK_THEME=Adwaita-dark
 exec --no-startup-id xrandr --output DP-2 --right-of DP-0
-exec_always --no-startup-id xrandr --output DP-2 --rate 144.00
-exec_always --no-startup-id xrandr --output DP-0 --rate 120.00
+exec_always --no-startup-id xrandr --output DP-2 --mode 2560x1440 --rate 144.00
+exec_always --no-startup-id xrandr --output DP-0 --mode 2560x1440 --rate 120.00
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 
 # wallpaper
