@@ -1,0 +1,47 @@
+6/18/2025, 1:03:51 PM PDT 0: 
+
+----------------------------------------------
+6/18/2025, 1:03:51 PM PDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.98"}, modulepath: /home/lucienduchateau/.config/discord/0.0.98/modules
+6/18/2025, 1:03:51 PM PDT 2: ✅ webContents.created web1 ""
+6/18/2025, 1:03:51 PM PDT 3: ✅ window.created win1 "discord"
+6/18/2025, 1:03:51 PM PDT 4: ✅ webContents.did-finish-load web1
+6/18/2025, 1:03:55 PM PDT 5: ✅ webContents.created web2 ""
+6/18/2025, 1:03:55 PM PDT 6: ✅ window.created win2 "Discord"
+6/18/2025, 1:03:57 PM PDT 7: ✅ webContents.did-finish-load web2
+6/18/2025, 1:03:57 PM PDT 8: window.close win1
+6/18/2025, 1:03:57 PM PDT 9: webContents.destroyed web1
+6/18/2025, 1:03:58 PM PDT 10: window.closed win1
+6/18/2025, 1:33:48 PM PDT 11: before-quit
+6/18/2025, 1:33:48 PM PDT 12: window.close win2
+6/18/2025, 1:33:51 PM PDT 13: window.closed win2
+6/18/2025, 1:48:31 PM PDT 0: 
+
+----------------------------------------------
+6/18/2025, 1:48:31 PM PDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.98"}, modulepath: /home/lucienduchateau/.config/discord/0.0.98/modules
+6/18/2025, 1:48:31 PM PDT 2: ✅ webContents.created web1 ""
+6/18/2025, 1:48:31 PM PDT 3: ✅ window.created win1 "discord"
+6/18/2025, 1:48:31 PM PDT 4: ✅ webContents.did-finish-load web1
+6/18/2025, 1:48:32 PM PDT 5: ✅ webContents.created web2 ""
+6/18/2025, 1:48:32 PM PDT 6: ✅ window.created win2 "Discord"
+6/18/2025, 1:48:33 PM PDT 7: ✅ webContents.did-finish-load web2
+6/18/2025, 1:48:34 PM PDT 8: window.close win1
+6/18/2025, 1:48:34 PM PDT 9: webContents.destroyed web1
+6/18/2025, 1:48:34 PM PDT 10: window.closed win1
+6/18/2025, 1:49:51 PM PDT 11: window.close win2
+6/18/2025, 1:49:58 PM PDT 12: before-quit
+6/18/2025, 1:49:58 PM PDT 13: window.close win2
+6/18/2025, 1:49:58 PM PDT 14: webContents.destroyed web2
+6/18/2025, 1:50:06 PM PDT 0: 
+
+----------------------------------------------
+6/18/2025, 1:50:06 PM PDT 1: Discord starting: {"releaseChannel":"stable","version":"0.0.98"}, modulepath: /home/lucienduchateau/.config/discord/0.0.98/modules
+6/18/2025, 1:50:06 PM PDT 2: ✅ webContents.created web1 ""
+6/18/2025, 1:50:06 PM PDT 3: ✅ window.created win1 "discord"
+6/18/2025, 1:50:07 PM PDT 4: ✅ webContents.did-finish-load web1
+6/18/2025, 1:50:07 PM PDT 5: ✅ webContents.created web2 ""
+6/18/2025, 1:50:07 PM PDT 6: ✅ window.created win2 "Discord"
+6/18/2025, 1:50:08 PM PDT 7: ✅ webContents.did-finish-load web2
+6/18/2025, 1:50:09 PM PDT 8: window.close win1
+6/18/2025, 1:50:09 PM PDT 9: webContents.destroyed web1
+6/18/2025, 1:50:09 PM PDT 10: window.closed win1
+6/18/2025, 1:50:11 PM PDT 11: ✅ webContents.did-finish-load web2
