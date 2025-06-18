@@ -41,6 +41,9 @@ exec --no-startup-id xrandr --output DP-2 --right-of DP-0
 exec_always --no-startup-id xrandr --output DP-2 --mode 2560x1440 --rate 144.00
 exec_always --no-startup-id xrandr --output DP-0 --mode 2560x1440 --rate 120.00
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
+exec --no-startup-id xset -dpms
+exec --no-startup-id xset s off
+
 
 # wallpaper
 exec_always --no-startup-id feh --bg-scale Wallpapers/messmer.jpg
