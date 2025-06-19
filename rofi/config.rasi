@@ -1,2 +1,6 @@
 
 @theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+configuration {
+	font: "Hack Nerd Font 13";
+}

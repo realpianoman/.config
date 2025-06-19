@@ -5,10 +5,12 @@
   [[default]]
     icon_bell = False
     background_type = transparent
+    font = Hack 15
     show_titlebar = False
     scrollbar_position = hidden
     scroll_on_keystroke = False
     scrollback_infinite = True
+    use_system_font = False
     title_use_system_font = False
 [layouts]
   [[default]]
