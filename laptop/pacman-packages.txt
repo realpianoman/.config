@@ -2,7 +2,9 @@ base
 bluez
 bluez-utils
 btrfs-progs
+clang
 cmake
+discord
 dmenu
 efibootmgr
 fastfetch
@@ -24,6 +26,7 @@ i3status
 imv
 intel-media-driver
 intel-ucode
+less
 libpulse
 libreoffice-fresh
 libva-intel-driver
@@ -52,8 +55,10 @@ ripgrep
 rofi
 rust
 smartmontools
+spotify-launcher
 stress-ng
 sudo
+tree-sitter-cli
 ttf-nerd-fonts-symbols
 vulkan-intel
 wezterm
