@@ -31,6 +31,7 @@ for config in \
     polybar \
     pulse \
     rofi \
+    nvim \
     wezterm
 do
     copy_config "$config"

@@ -6,6 +6,7 @@ cmake
 dmenu
 efibootmgr
 fastfetch
+fd
 feh
 firefox
 flatpak
@@ -34,6 +35,7 @@ make
 mkinitcpio
 mpv
 nano
+neovim
 network-manager-applet
 networkmanager
 ntfs-3g
@@ -46,6 +48,7 @@ pipewire-jack
 pipewire-pulse
 polybar
 power-profiles-daemon
+ripgrep
 rofi
 rust
 smartmontools
