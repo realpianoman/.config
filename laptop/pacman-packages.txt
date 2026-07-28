@@ -42,6 +42,8 @@ nano
 neovim
 network-manager-applet
 networkmanager
+nodejs
+npm
 ntfs-3g
 os-prober
 perl
@@ -52,12 +54,14 @@ pipewire-jack
 pipewire-pulse
 polybar
 power-profiles-daemon
+python-black
 ripgrep
 rofi
 rust
 smartmontools
 spotify-launcher
 stress-ng
+stylua
 sudo
 thunar
 tree-sitter-cli
