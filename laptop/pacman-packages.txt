@@ -7,6 +7,7 @@ cmake
 discord
 dmenu
 efibootmgr
+exfatprogs
 fastfetch
 fd
 feh
@@ -58,6 +59,7 @@ smartmontools
 spotify-launcher
 stress-ng
 sudo
+thunar
 tree-sitter-cli
 ttf-nerd-fonts-symbols
 vulkan-intel
