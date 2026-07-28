@@ -11,7 +11,7 @@ copy_config() {
 
     if [ -d "$HOME/.config/$NAME" ]; then
         echo "Backing up $NAME..."
-        cp -a "$HOME/.config/$NAME" "$BACKUP_DIR/.config/"
+        rsync -a --exclude='.git' "$HOME/.config/$NAME" "$BACKUP_DIR/.config/"
     else
         echo "Skipping $NAME (not found)"
     fi
@@ -46,12 +46,28 @@ echo "Backing up extra files..."
 [ -f "$HOME/.xinitrc" ] && cp "$HOME/.xinitrc" "$BACKUP_DIR/"
 
 # Shell configs
+echo "Backing up shell configs..."
+
 [ -f "$HOME/.bashrc" ] && cp "$HOME/.bashrc" "$BACKUP_DIR/"
 [ -f "$HOME/.zshrc" ] && cp "$HOME/.zshrc" "$BACKUP_DIR/"
+[ -f "$HOME/.zprofile" ] && cp "$HOME/.zprofile" "$BACKUP_DIR/"
+[ -f "$HOME/.zshenv" ] && cp "$HOME/.zshenv" "$BACKUP_DIR/"
+[ -f "$HOME/.zlogin" ] && cp "$HOME/.zlogin" "$BACKUP_DIR/"
+
+# Oh My Zsh
+if [ -d "$HOME/.oh-my-zsh" ]; then
+    echo "Backing up Oh My Zsh..."
+    rsync -a --exclude='.git' "$HOME/.oh-my-zsh/" "$BACKUP_DIR/.oh-my-zsh/"
+else
+    echo "Skipping Oh My Zsh (not found)"
+fi
+
+# Powerlevel10k config
+[ -f "$HOME/.p10k.zsh" ] && cp "$HOME/.p10k.zsh" "$BACKUP_DIR/"
 
 # Fonts/themes/icons
-[ -d "$HOME/.themes" ] && cp -a "$HOME/.themes" "$BACKUP_DIR/"
-[ -d "$HOME/.icons" ] && cp -a "$HOME/.icons" "$BACKUP_DIR/"
+[ -d "$HOME/.themes" ] && rsync -a --exclude='.git' "$HOME/.themes/" "$BACKUP_DIR/.themes/"
+[ -d "$HOME/.icons" ] && rsync -a --exclude='.git' "$HOME/.icons/" "$BACKUP_DIR/.icons/"
 [ -d "$HOME/.local/share/fonts" ] && cp -a "$HOME/.local/share/fonts" "$BACKUP_DIR/.local-share-fonts"
 
 echo "Saving package lists..."
