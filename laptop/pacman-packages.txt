@@ -24,6 +24,7 @@ i3-wm
 i3blocks
 i3lock
 i3status
+imagemagick
 imv
 intel-media-driver
 intel-ucode
@@ -46,6 +47,7 @@ nodejs
 npm
 ntfs-3g
 os-prober
+pastel
 perl
 picom
 pipewire

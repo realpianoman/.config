@@ -32,6 +32,7 @@ for config in \
     pulse \
     rofi \
     nvim \
+    fastfetch \
     wezterm
 do
     copy_config "$config"
@@ -53,7 +54,6 @@ echo "Backing up extra files..."
 [ -d "$HOME/.icons" ] && cp -a "$HOME/.icons" "$BACKUP_DIR/"
 [ -d "$HOME/.local/share/fonts" ] && cp -a "$HOME/.local/share/fonts" "$BACKUP_DIR/.local-share-fonts"
 
-
 echo "Saving package lists..."
 
 pacman -Qqe > "$BACKUP_DIR/pacman-packages.txt"
@@ -73,6 +73,9 @@ if command -v dconf >/dev/null 2>&1; then
     dconf dump / > "$BACKUP_DIR/dconf-settings.ini"
 fi
 
+echo "Backing up PNG files in ~/.config..."
+
+find "$HOME/.config" -maxdepth 1 -type f -name "*.png" -exec cp {} "$BACKUP_DIR/.config/" \;
 
 echo
 echo "Done!"
