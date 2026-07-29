@@ -30,6 +30,7 @@ imv
 intel-media-driver
 intel-ucode
 jdk-openjdk
+jq
 less
 libpulse
 libreoffice-fresh
@@ -52,6 +53,7 @@ ntfs-3g
 os-prober
 pastel
 perl
+perl-anyevent-i3
 picom
 pipewire
 pipewire-alsa

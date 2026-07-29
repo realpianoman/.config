@@ -93,6 +93,35 @@ echo "Backing up PNG files in ~/.config..."
 
 find "$HOME/.config" -maxdepth 1 -type f -name "*.png" -exec cp {} "$BACKUP_DIR/.config/" \;
 
+# Local application desktop entries
+echo "Backing up local application entries..."
+
+if [ -d "$HOME/.local/share/applications" ]; then
+    mkdir -p "$BACKUP_DIR/.local/share/applications"
+    rsync -a \
+        --include='*.desktop' \
+        --exclude='*' \
+        "$HOME/.local/share/applications/" \
+        "$BACKUP_DIR/.local/share/applications/"
+else
+    echo "Skipping local applications (not found)"
+fi
+
+
+# Local bin scripts
+echo "Backing up local bin scripts..."
+
+if [ -d "$HOME/.local/bin" ]; then
+    mkdir -p "$BACKUP_DIR/.local/bin"
+    rsync -a \
+        --include='*.sh' \
+        --exclude='*' \
+        "$HOME/.local/bin/" \
+        "$BACKUP_DIR/.local/bin/"
+else
+    echo "Skipping ~/.local/bin (not found)"
+fi
+
 echo
 echo "Done!"
 echo "Backup saved to:"

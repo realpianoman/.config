@@ -1,0 +1,92 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1010,
+       "width": 785,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "Archived Problems - Project Euler — Mozilla Firefox",
+    "percent": 0.405263157894737,
+    "swallows": [
+       {
+       "class": "^firefox$",
+       "instance": "^Navigator$",
+       "machine": "^archlinux$",
+       "title": "^Archived\\ Problems\\ \\-\\ Project\\ Euler\\ \\—\\ Mozilla\\ Firefox$",
+       "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+{
+    // splitv split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.594736842105263,
+    "type": "con",
+    "nodes": [
+        {
+            // splith split container with 1 children
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splith",
+            "marks": [],
+            "percent": 0.723300970873786,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 550,
+                       "width": 820,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "~",
+                    "percent": 1,
+                    "swallows": [
+                       {
+                       "class": "^org\\.wezfurlong\\.wezterm$",
+                       "instance": "^org\\.wezfurlong\\.wezterm$",
+                       "title": "^\\~$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 550,
+               "width": 820,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "~",
+            "percent": 0.276699029126214,
+            "swallows": [
+               {
+               "class": "^org\\.wezfurlong\\.wezterm$",
+               "instance": "^org\\.wezfurlong\\.wezterm$",
+               "title": "^\\~$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
