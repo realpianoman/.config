@@ -113,7 +113,7 @@ bindsym $mod+f fullscreen toggle
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+e layout toggle split
 
-
+bindsym $mod+Shift+s exec --no-startup-id maim | xclip -selection clipboard -t image/png
 
 # focus the parent container
 bindsym $mod+a focus parent

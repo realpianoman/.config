@@ -4,6 +4,7 @@ bluez-utils
 btrfs-progs
 clang
 cmake
+cmatrix
 discord
 dmenu
 efibootmgr
@@ -37,6 +38,7 @@ lightdm
 lightdm-gtk-greeter
 linux
 linux-firmware
+maim
 make
 mkinitcpio
 mpv
