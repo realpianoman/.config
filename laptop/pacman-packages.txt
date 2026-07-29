@@ -58,6 +58,7 @@ pipewire-pulse
 polybar
 power-profiles-daemon
 python-black
+ranger
 ripgrep
 rofi
 rsync

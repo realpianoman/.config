@@ -40,3 +40,18 @@ vrun() {
 clera() {
     clear
 }
+
+mkcd() {
+    mkdir -p "$1" && cd "$1"
+}
+
+function rcd {
+    local tmp="$(mktemp)"
+    ranger --choosedir="$tmp" "$@"
+    if [ -f "$tmp" ]; then
+        cd "$(cat "$tmp")"
+        rm -f "$tmp"
+    fi
+
+    nvim .
+}

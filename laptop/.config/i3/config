@@ -76,10 +76,16 @@ bindsym $mod+k focus up
 bindsym $mod+o focus right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+# bindsym $mod+Left focus left
+# bindsym $mod+Down focus down
+# bindsym $mod+Up focus up
+# bindsym $mod+Right focus right
+
+# Resize focused window with Mod + Arrow keys
+bindsym $mod+Left  resize shrink width 10 px
+bindsym $mod+Right resize grow width 10 px
+bindsym $mod+Up    resize grow height 10 px
+bindsym $mod+Down  resize shrink height 10 px
 
 # move focused window
 bindsym $mod+Shift+n move left
