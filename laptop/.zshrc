@@ -55,3 +55,7 @@ function rcd {
 
     nvim .
 }
+
+tte() {
+    upower -i $(upower -e | grep -i battery) | grep -i "time to empty"
+}

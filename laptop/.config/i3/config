@@ -37,7 +37,7 @@ exec --no-startup-id nm-applet
 # start background
 exec_always --no-startup-id pkill picom
 exec_always --no-startup-id feh --bg-fill /$HOME/.config/wallpaper.png
-exec_always --no-startup-id sh -c 'picom -b > ~/.cache/picom.log 2>&1'
+exec_always --no-startup-id sleep 1 && sh -c 'picom -b > ~/.cache/picom.log 2>&1'
 exec_always --no-startup-id setxkbmap us colemak
 
 # Use pactl to adjust volume in PulseAudio.
