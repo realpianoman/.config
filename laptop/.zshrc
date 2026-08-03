@@ -17,6 +17,10 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+export PATH="$HOME/.local/bin:$PATH"
+export VISUAL=nvim
+export EDITOR=nvim
+
 function zle-keymap-select {
   if [[ $KEYMAP == vicmd ]]; then
     echo -ne "\033[1 q"
@@ -59,3 +63,6 @@ function rcd {
 tte() {
     upower -i $(upower -e | grep -i battery) | grep -i "time to empty"
 }
+
+cd ~/developing/
+clear

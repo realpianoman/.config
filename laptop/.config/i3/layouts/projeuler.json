@@ -58,7 +58,7 @@
                        {
                        "class": "^org\\.wezfurlong\\.wezterm$",
                        "instance": "^org\\.wezfurlong\\.wezterm$",
-                       "title": "^\\~$"
+                       "title": "^\\~/developing$"
                        }
                     ],
                     "type": "con"
@@ -82,7 +82,7 @@
                {
                "class": "^org\\.wezfurlong\\.wezterm$",
                "instance": "^org\\.wezfurlong\\.wezterm$",
-               "title": "^\\~$"
+               "title": "^\\~/developing$"
                }
             ],
             "type": "con"
