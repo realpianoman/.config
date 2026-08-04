@@ -22,7 +22,6 @@ mkdir -p "$BACKUP_DIR/.config"
 echo "Backing up configs..."
 
 for config in \
-    dconf \
     gtk-3.0 \
     gtk-4.0 \
     i3 \
