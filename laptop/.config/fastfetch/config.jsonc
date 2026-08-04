@@ -47,8 +47,13 @@
         "battery",
         {
             "type": "command",
-            "key": "Battery Time",
+            "key": "Time to empty",
             "text": "upower -i $(upower -e | grep BAT) | awk -F': +' '/time to empty/ {print $2}'",
+        },
+        {
+            "type": "command",
+            "key": "Time to charge",
+            "text": "upower -i $(upower -e | grep BAT) | awk -F': +' '/time to full/ {print $2}'",
         },
         "poweradapter",
         "locale",
