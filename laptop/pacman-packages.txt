@@ -1,7 +1,9 @@
+adobe-source-code-pro-fonts
 base
 bluez
 bluez-utils
 btrfs-progs
+cantarell-fonts
 clang
 cmake
 cmatrix
@@ -48,6 +50,9 @@ neovim
 network-manager-applet
 networkmanager
 nodejs
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
 npm
 ntfs-3g
 os-prober
@@ -74,6 +79,10 @@ stylua
 sudo
 thunar
 tree-sitter-cli
+ttf-dejavu
+ttf-fira-code
+ttf-hack
+ttf-liberation
 ttf-nerd-fonts-symbols
 vulkan-intel
 wezterm
