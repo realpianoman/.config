@@ -5,5 +5,5 @@ require("nvim-treesitter").install({
     "go",
     "typescript",
     "cpp",
-    "jsonc",
+    "arduino",
 })

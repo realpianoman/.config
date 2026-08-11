@@ -11,6 +11,7 @@ return {
                 cpp = { "clang_format" },
                 rust = { "rustfmt" },
                 jsonc = { "prettier" },
+                arduino = { "clang_format" },
             },
 
             format_on_save = {

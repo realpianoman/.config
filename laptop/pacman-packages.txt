@@ -1,9 +1,12 @@
 adobe-source-code-pro-fonts
+arduino-cli
+arduino-language-server
 base
 bluez
 bluez-utils
 btrfs-progs
 cantarell-fonts
+cava
 clang
 cmake
 cmatrix
@@ -43,6 +46,8 @@ linux
 linux-firmware
 maim
 make
+man-db
+man-pages
 mkinitcpio
 mpv
 nano
