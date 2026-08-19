@@ -12,6 +12,7 @@ return {
                 rust = { "rustfmt" },
                 jsonc = { "prettier" },
                 arduino = { "clang_format" },
+                java = { "clang_format" },
             },
 
             format_on_save = {

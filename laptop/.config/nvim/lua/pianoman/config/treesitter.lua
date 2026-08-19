@@ -6,4 +6,5 @@ require("nvim-treesitter").install({
     "typescript",
     "cpp",
     "arduino",
+    "java",
 })

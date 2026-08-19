@@ -32,6 +32,8 @@ for config in \
     rofi \
     nvim \
     fastfetch \
+    btop \
+    cava \
     wezterm
 do
     copy_config "$config"

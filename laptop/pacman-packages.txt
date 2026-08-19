@@ -4,6 +4,7 @@ arduino-language-server
 base
 bluez
 bluez-utils
+btop
 btrfs-progs
 cantarell-fonts
 cava
@@ -22,6 +23,7 @@ flatpak
 gcc
 git
 github-cli
+glow
 grub
 gst-plugin-pipewire
 gvim

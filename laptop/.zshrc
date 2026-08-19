@@ -64,4 +64,26 @@ tte() {
     upower -i $(upower -e | grep -i battery) | grep -i "time to empty"
 }
 
+bhs-cs() {
+    if [ -z "$1" ]; then
+        echo "Usage: submit <filename>"
+        return 1
+    fi
+
+    local file
+    file="$(realpath "$1")" || return 1
+
+    if [ ! -f "$file" ]; then
+        echo "File not found: $1"
+        return 1
+    fi
+
+    local webreq_dir="$HOME/developing/soft-eng/webreq/"
+
+    (
+        cd "$webreq_dir" || exit 1
+        tsx main.ts "$file"
+    )
+}
+
 clear
