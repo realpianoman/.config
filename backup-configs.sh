@@ -42,6 +42,8 @@ done
 
 echo "Backing up extra files..."
 
+[ -f "$HOME/commands.md" ] && cp "$HOME/commands.md" "$BACKUP_DIR/"
+
 # X11 settings
 [ -f "$HOME/.Xresources" ] && cp "$HOME/.Xresources" "$BACKUP_DIR/"
 [ -f "$HOME/.xinitrc" ] && cp "$HOME/.xinitrc" "$BACKUP_DIR/"
