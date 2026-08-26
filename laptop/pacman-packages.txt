@@ -11,6 +11,7 @@ cava
 clang
 cmake
 cmatrix
+cups
 discord
 dmenu
 efibootmgr
