@@ -34,7 +34,8 @@ for config in \
     fastfetch \
     btop \
     cava \
-    wezterm
+    wezterm \
+    kitty
 do
     copy_config "$config"
 done

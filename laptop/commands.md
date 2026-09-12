@@ -79,3 +79,15 @@ git switch -c <new-branch>
 git stash
 git stash pop
 ```
+
+## maintenence
+```
+# update
+sudo pacman -Syu
+
+# clean out caches
+sudo pacman -Sc
+
+# check out failed stuff
+systemctl --failed
+```

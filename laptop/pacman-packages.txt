@@ -22,6 +22,7 @@ feh
 firefox
 flatpak
 gcc
+gimp
 git
 github-cli
 glow
@@ -39,6 +40,7 @@ intel-media-driver
 intel-ucode
 jdk-openjdk
 jq
+kitty
 less
 libpulse
 libreoffice-fresh

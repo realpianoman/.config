@@ -55,8 +55,11 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec wezterm start --cwd ~/developing/
-bindsym $mod+Shift+Return exec wezterm start --cwd ~/
+# old wezterm bindings, still good
+# bindsym $mod+Return exec wezterm start --cwd ~/developing/
+# bindsym $mod+Shift+Return exec wezterm start --cwd ~/
+bindsym $mod+Return exec kitty --directory ~/developing/
+bindsym $mod+Shift+Return exec kitty --directory ~/
 
 # kill focused window
 bindsym $mod+Shift+q kill
