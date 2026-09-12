@@ -91,3 +91,5 @@ sudo pacman -Sc
 # check out failed stuff
 systemctl --failed
 ```
+
+Screenshots use `maim` or `Shift+Alt+s`
