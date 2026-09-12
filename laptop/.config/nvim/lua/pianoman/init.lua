@@ -1,4 +1,5 @@
 require("pianoman.remap")
+require("pianoman.math")
 require("pianoman.config.lazy")
 require("pianoman.config.lsp")
 require("pianoman.config.options")

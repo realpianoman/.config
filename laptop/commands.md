@@ -92,4 +92,14 @@ sudo pacman -Sc
 systemctl --failed
 ```
 
+## markdown
+Notes are taken in Markdown and viewed with `mlux` for LaTeX to work
+```
+# regular
+mlux path/to/file
+
+# auto updating
+mlux --watch path/to/file
+```
+
 Screenshots use `maim` or `Shift+Alt+s`

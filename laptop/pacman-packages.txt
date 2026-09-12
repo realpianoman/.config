@@ -26,6 +26,7 @@ gimp
 git
 github-cli
 glow
+go
 grub
 gst-plugin-pipewire
 gvim
