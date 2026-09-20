@@ -36,6 +36,7 @@ i3blocks
 i3lock
 i3status
 imagemagick
+img2pdf
 imv
 intel-media-driver
 intel-ucode

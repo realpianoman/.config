@@ -13,6 +13,13 @@ nmcli device wifi list
 nmcli device wifi connect <WIFI-NAME> password <PASSWORD>
 
 nmcli device disconnect <DEVICE>
+
+# If network unreachable or name cannot be resolved:
+# Go into ip link and do
+sudo ip link set <link-name> up
+
+# Ex:
+sudo ip link set wlp4s0 up
 ```
 
 ## processes:
