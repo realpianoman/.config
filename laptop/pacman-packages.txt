@@ -25,6 +25,8 @@ gcc
 gimp
 git
 github-cli
+glfw
+glm
 glow
 go
 grub
